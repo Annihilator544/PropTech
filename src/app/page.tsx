@@ -1,9 +1,17 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+
 
 export default function Home() {
   return (
-    <div className="hero h-screen bg-gradient-to-b from-[#0000004D] to-[#000000]">
-
-    </div>
+    <>
+      <div className="hero">
+        <div className="w-[70%] mx-auto flex flex-col h-screen text-white">
+          <Navbar />
+          <Hero />
+        </div>
+      </div>
+      
+    </>
   );
 }
