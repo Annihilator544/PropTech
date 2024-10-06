@@ -7,11 +7,11 @@ import Image from "next/image";
 
 function Explore() {
   return (
-    <div className="py-32">
-      <div className="grid grid-cols-[80%,20%] lora mb-10">
+    <div className="py-32 max-lg:py-10">
+      <div className="grid grid-cols-[80%,20%] lora mb-10 max-lg:flex max-lg:flex-col max-lg:gap-4">
         <div>
-            <p className=" text-[42px]">Explore our Featured</p>
-            <p className=" text-[42px]">Properties Today</p>
+            <p className=" text-[42px] max-lg:text-4xl">Explore our Featured</p>
+            <p className=" text-[42px] max-lg:text-4xl">Properties Today</p>
         </div>
         <Button className="mt-auto ml-auto" variant={"defaultSecondary"}>All Properties</Button>
       </div>

@@ -2,13 +2,16 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./
 
 function FAQ() {
   return (
-    <div className="py-32 grid grid-cols-[30%,70%]">
-        <div>
+    <div className="py-32 grid grid-cols-[30%,70%] max-lg:flex max-lg:flex-col">
+        <div className="max-lg:hidden">
             <p className="text-[42px] lora">Frequently</p>
             <p className="text-[42px] lora">Asked</p>
             <p className="text-[42px] lora">Questions</p>
         </div>
-        <div>
+        <div className="lg:hidden">
+            <p className="text-[42px] lora">Frequently Asked Questions</p>
+        </div>
+        <div className="max-lg:pt-10">
             <Accordion type="single" collapsible className="w-full">
             <AccordionItem value="item-1">
                 <AccordionTrigger>How long does it take to close on a house?</AccordionTrigger>

@@ -6,10 +6,10 @@ import company4 from "../images/company4.svg";
 function RealEstate() {
   return (
     <div className=" mx-auto py-32">
-      <div className="grid grid-cols-[80%,20%] lora">
+      <div className="grid grid-cols-[80%,20%] lora max-lg:flex max-lg:flex-col max-lg:gap-4">
         <div>
-            <p className=" text-[42px]">Real Estate</p>
-            <p className=" text-[42px]">Solutions Offered</p>
+            <p className=" text-[42px] max-lg:text-4xl">Real Estate</p>
+            <p className=" text-[42px] max-lg:text-4xl">Solutions Offered</p>
         </div>
         <p className="inter font-light text-[11px] my-auto">Covering everything from purchase and sales to 
             overseeing properties and delivering prime 
@@ -17,25 +17,25 @@ function RealEstate() {
             all your property requirements with seasoned 
             proficiency.</p>
       </div>
-      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px]">
+      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px] max-lg:flex max-lg:flex-col max-lg:gap-4">
         <Image src={company1} alt="company1" className="my-auto" />
         <p className="inter font-light text-[11px] my-auto">Whether purchasing or selling, to managing 
             properties and offering investment guidance, we 
             cater to all your needs.</p>
       </div>
-      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px]">
+      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px] max-lg:flex max-lg:flex-col max-lg:gap-4">
         <Image src={company2} alt="company1" className="my-auto" />
         <p className="inter font-light text-[11px] my-auto">From acquiring and disposing to overseeing 
             properties and providing investment guidance, our 
             offerings encompass all.</p>
       </div>
-      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px]">
+      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px] max-lg:flex max-lg:flex-col max-lg:gap-4">
         <Image src={company3} alt="company1" className="my-auto" />
         <p className="inter font-light text-[11px] my-auto">From purchasing and trading to managing 
             properties and providing investment counsel, we 
             encompass everything.</p>
       </div>
-      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px]">
+      <div className="grid grid-cols-[80%,20%] lora py-10 border-b-[1px] max-lg:flex max-lg:flex-col max-lg:gap-4">
         <Image src={company4} alt="company1" className="my-auto" />
         <p className="inter font-light text-[11px] my-auto">From buying and selling to managing properties 
             and advising on investments, we furnish all-

@@ -12,14 +12,14 @@ export default function Home() {
   return (
     <>
       <div className="hero">
-        <div className="w-[70%] mx-auto flex flex-col h-screen text-white">
+        <div className="w-[70%] max-lg:w-full mx-auto flex flex-col h-screen text-white">
           <Navbar />
           <Hero />
         </div>
       </div>
       <div className="bg-black text-white">
         <Companies />
-        <div className="w-[80%] mx-auto">
+        <div className="w-[80%] mx-auto max-lg:w-full max-lg:px-4">
           <RealEstate />
           <Explore />
           <Expert />
