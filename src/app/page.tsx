@@ -1,4 +1,5 @@
 import Companies from "@/components/Companies";
+import Expert from "@/components/Expert";
 import Explore from "@/components/Explore";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
@@ -19,6 +20,7 @@ export default function Home() {
         <div className="w-[80%] mx-auto">
           <RealEstate />
           <Explore />
+          <Expert />
         </div>
       </div>
     </>
