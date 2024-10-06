@@ -1,6 +1,7 @@
 import Companies from "@/components/Companies";
 import Expert from "@/components/Expert";
 import Explore from "@/components/Explore";
+import FAQ from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import RealEstate from "@/components/RealEstate";
@@ -21,6 +22,7 @@ export default function Home() {
           <RealEstate />
           <Explore />
           <Expert />
+          <FAQ />
         </div>
       </div>
     </>
